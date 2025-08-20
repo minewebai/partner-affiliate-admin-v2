@@ -1,0 +1,20 @@
+/* assets/partner-portal.css */
+.pp-dashboard { font-family: Arial, sans-serif; max-width: 1000px; margin: 40px auto; background: #fff; border-radius: 10px; box-shadow: 0 3px 16px rgba(0,0,0,.07);}
+.pp-dashboard-header { display: flex; align-items: center; padding: 24px 32px; border-bottom: 1px solid #eee;}
+.pp-logo { flex: 1;}
+.pp-user { margin-right: 24px; font-weight: bold;}
+.pp-menu { display: flex; gap: 16px;}
+.pp-menu-item { text-decoration: none; color: #444; font-weight: 500; padding: 6px 16px; border-radius: 4px;}
+.pp-menu-item.active, .pp-menu-item:hover { background: #f5f5f5;}
+.pp-dashboard-main { padding: 32px;}
+.pp-section { display: none;}
+.pp-section.active { display: block;}
+.pp-dashboard-login { max-width: 400px; margin: 80px auto; text-align: center; font-size: 1.2em;}
+.pp-item { border: 1px solid #eee; margin: 10px 0; padding: 12px; border-radius: 8px;}
+.pp-book-btn { margin-top: 8px; }
+.pp-booking-form label { display: block; margin: 6px 0 2px;}
+.pp-booking-form input { width: 100%; padding: 5px; }
+.pp-booking-form button { margin-top: 10px; }
+.pp-bookings-table { width: 100%; border-collapse: collapse; }
+.pp-bookings-table th, .pp-bookings-table td { padding: 8px; border: 1px solid #eee; }
+.pp-bookings-table th { background: #f5f5f5; }
